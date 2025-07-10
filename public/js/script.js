@@ -6,6 +6,7 @@ document.getElementById('loadRatesBtn').addEventListener('click', async () => {
     const output = data.map(item => `
       <div class="card mb-2">
         <div class="card-body">
+          <h5 class="card-title">${item.bank}</h5>
           <h5 class="card-title">${item.currency}</h5>
           <p class="card-text">Rate: ${item.rate}</p>
         </div>
