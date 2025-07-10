@@ -1,0 +1,58 @@
+
+[
+  {
+    "title": "Welcome",
+    "active": true,
+    "meta": {
+      "views": 1023,
+      "tags": ["homepage", "intro"],
+      "summary": "Introductory message for users."
+    }
+  },
+  {
+    "title": "Who We Are",
+    "active": true,
+    "meta": {
+      "views": 890,
+      "tags": ["about", "values"],
+      "summary": "Background and core values of TrustBank."
+    }
+  },
+  {
+    "title": "Our Mission",
+    "active": true,
+    "meta": {
+      "views": 761,
+      "tags": ["mission", "goals"],
+      "summary": "Description of the bank’s mission and customer focus."
+    }
+  },
+  {
+    "title": "Branch Info",
+    "active": false,
+    "meta": {
+      "views": 654,
+      "tags": ["locations", "branches"],
+      "summary": "Information about physical branches across Canada."
+    }
+  },
+  {
+    "title": "Community",
+    "active": true,
+    "meta": {
+      "views": 580,
+      "tags": ["community", "outreach"],
+      "summary": "Community engagement and partnerships."
+    }
+  },
+  {
+    "title": "Future",
+    "active": true,
+    "meta": {
+      "views": 732,
+      "tags": ["future", "vision"],
+      "summary": "Forward-looking vision and partnership goals."
+    }
+  }
+]
+
