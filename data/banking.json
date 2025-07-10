@@ -1,57 +1,32 @@
 [
   {
-    "title": "Welcome",
-    "active": true,
-    "meta": {
-      "views": 1023,
-      "tags": ["homepage", "intro"],
-      "summary": "Introductory message for users."
-    }
+    "bank": "TrustBank",
+    "currency": "USD/CAD",
+    "rate": 1.3225
   },
   {
-    "title": "Who We Are",
-    "active": true,
-    "meta": {
-      "views": 890,
-      "tags": ["about", "values"],
-      "summary": "Background and core values of TrustBank."
-    }
+    "bank": "Royal Bank of Canada",
+    "currency": "EUR/CAD",
+    "rate": 1.4357
   },
   {
-    "title": "Our Mission",
-    "active": true,
-    "meta": {
-      "views": 761,
-      "tags": ["mission", "goals"],
-      "summary": "Description of the bank’s mission and customer focus."
-    }
+    "bank": "Scotiabank",
+    "currency": "GBP/CAD",
+    "rate": 1.7213
   },
   {
-    "title": "Branch Info",
-    "active": false,
-    "meta": {
-      "views": 654,
-      "tags": ["locations", "branches"],
-      "summary": "Information about physical branches across Canada."
-    }
+    "bank": "TD Canada Trust",
+    "currency": "USD/CAD",
+    "rate": 1.3240
   },
   {
-    "title": "Community",
-    "active": true,
-    "meta": {
-      "views": 580,
-      "tags": ["community", "outreach"],
-      "summary": "Community engagement and partnerships."
-    }
+    "bank": "Bank of Montreal",
+    "currency": "JPY/CAD",
+    "rate": 0.0091
   },
   {
-    "title": "Future",
-    "active": true,
-    "meta": {
-      "views": 732,
-      "tags": ["future", "vision"],
-      "summary": "Forward-looking vision and partnership goals."
-    }
+    "bank": "CIBC",
+    "currency": "AUD/CAD",
+    "rate": 0.8972
   }
 ]
-
