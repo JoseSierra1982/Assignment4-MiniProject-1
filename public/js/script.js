@@ -1,6 +1,6 @@
 document.getElementById('loadRatesBtn').addEventListener('click', async () => {
   try {
-    const res = await fetch('/api/banking');
+    const res = await fetch('/exchange-rates/data/banking.json');
     const data = await res.json();
 
     const output = data.map(item => `
@@ -12,7 +12,6 @@ document.getElementById('loadRatesBtn').addEventListener('click', async () => {
         </div>
       </div>
     `).join('');
-
     document.getElementById('ratesOutput').innerHTML = output;
   } catch (error) {
     document.getElementById('ratesOutput').innerHTML = `<p class="text-danger">Error loading data.</p>`;
