@@ -1,6 +1,6 @@
 document.getElementById('loadRatesBtn').addEventListener('click', async () => {
   try {
-    const res = await fetch('/api/rates');
+    const res = await fetch('/api/banking');
     const data = await res.json();
 
     const output = data.map(item => `
