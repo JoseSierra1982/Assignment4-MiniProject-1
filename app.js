@@ -21,12 +21,9 @@ console.log("__dirname: ", __dirname);
 // This data will be served through the API endpoint we create later.
 const data = require('./data/banking.json');
 
-// Serve static files from the "public" directory
-// This allows us to access files in the "public" folder via the URL: http://localhost:3000/site
-// For example, if you have a file "index.html" in the "public" folder, it can be accessed at http://localhost:3000/site/index.html 
-// This is a good practice to keep your static files organized and accessible.
-
-app.use('/site', express.static(path.join(__dirname, 'public')));
+// Set up middleware to serve static files from the "public" directory.
+// This allows us to serve HTML, CSS, and JavaScript files directly to the client.
+app.use('/', express.static(path.join(__dirname, 'public')));
 
 // Set up a route to serve the main application page
 // When a user accesses the root URL (http://localhost:3000/), they will receive the index.html file located in the "public" directory.
